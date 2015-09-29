@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/2.5/template-install.dtd">
+<extension version="3.1" type="template" client="site">
+	<name>city</name>
+	<version>0.1</version>
+	<creationDate>18/09/2015</creationDate>
+	<author>itsam</author>
+	<authorEmail>tsampoulatidis@gmail</authorEmail>
+	<copyright>The Creative Commons Attribution 3.0 License</copyright>
+	<description>TPL_CITY_XML_DESCRIPTION</description>
+	<files>
+		<filename>component.php</filename>
+		<filename>error.php</filename>
+		<filename>favicon.ico</filename>
+		<filename>index.php</filename>
+		<filename>templateDetails.xml</filename>
+		<filename>template_preview.png</filename>
+		<filename>template_thumbnail.png</filename>
+		<folder>css</folder>
+		<folder>html</folder>
+		<folder>images</folder>
+		<folder>img</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+		<folder>less</folder>
+	</files>
+	<positions>
+		<position>banner</position>
+		<position>debug</position>
+		<position>menu</position>
+		<position>language</position>
+		<position>top</position>
+		<position>cta</position>
+		<position>superheader</position>
+		<position>bottom</position>
+		<position>aside</position>
+		<position>position-7</position>
+		<position>position-8</position>
+		<position>position-9</position>
+		<position>position-10</position>
+		<position>position-11</position>
+		<position>position-12</position>
+		<position>position-13</position>
+		<position>position-14</position>
+		<position>footer</position>
+	</positions>
+	<languages folder="language">
+		<language tag="en-GB">en-GB/en-GB.tpl_city.ini</language>
+		<language tag="en-GB">en-GB/en-GB.tpl_city.sys.ini</language>
+	</languages>
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field name="logoFile" class="" type="media" default=""
+					label="TPL_CITY_LOGO_LABEL"
+					description="TPL_CITY_LOGO_DESC" />
+					
+				<field name="sitetitle"  type="text" default=""
+					label="JGLOBAL_TITLE"
+					description="JFIELD_ALT_PAGE_TITLE_LABEL"
+					filter="safehtml" />
+
+				<field name="sitedescription"  type="text" default=""
+					label="JGLOBAL_DESCRIPTION"
+					description="JGLOBAL_SUBHEADING_DESC"
+					filter="safehtml" />
+
+				<field name="sitebuttonspecialtitle"  type="text" default=""
+						label="Button Special Title"
+						description="If landing page is true display button"
+						filter="string" />
+
+				<field name="sitebuttonspeciallink"  type="text" default="#"
+						label="Button link"
+						description=""
+						filter="safehtml" />
+
+				<field name="sitearrow"  type="text" default=""
+						label="Scroll Arrow Title"
+						description="If landing page is true display button"
+						filter="string" />
+
+				<field name="sitelandingpage"
+					type="radio"
+					class="btn-group btn-group-yesno"
+					default="0"
+					label="TPL_CITY_LANDING_LABEL"
+					description="TPL_CITY_LANDING_DESC"
+				>
+					<option value="1">JYES</option>
+					<option value="0">JNO</option>
+				</field>
+
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,118 @@
+@font-face {
+	font-family: 'citybranding';
+	src:url('../fonts/citybranding.eot?-rnmp2');
+	src:url('../fonts/citybranding.eot?#iefix-rnmp2') format('embedded-opentype'),
+		url('../fonts/citybranding.ttf?-rnmp2') format('truetype'),
+		url('../fonts/citybranding.woff?-rnmp2') format('woff'),
+		url('../fonts/citybranding.svg?-rnmp2#citybranding') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+.cb2:before {
+	font-family: CityBranding;
+}
+
+.cb {
+	font-family: 'citybranding';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.cb-lg {
+  font-size: 1.33333333em;
+  line-height: 0.75em;
+  vertical-align: -15%;
+}
+.cb-2x {
+	font-size: 2em;
+}
+.cb-3x {
+	font-size: 3em;
+}
+.cb-4x {
+	font-size: 4em;
+}
+.cb-5x {
+	font-size: 5em;
+}
+
+
+
+.cb-roman:before {
+	content: "\e600";
+}
+.cb-byzantine:before {
+	content: "\e601";
+}
+.cb-ottoman:before {
+	content: "\e602";
+}
+.cb-hebrew:before {
+	content: "\e603";
+}
+.cb-churches:before {
+	content: "\e604";
+}
+.cb-newest:before {
+	content: "\e605";
+}
+.cb-home3:before {
+	content: "\e606";
+}
+.cb-pushpin:before {
+	content: "\e607";
+}
+.cb-location:before {
+	content: "\e608";
+}
+.cb-location2:before {
+	content: "\e609";
+}
+.cb-compass:before {
+	content: "\e60a";
+}
+.cb-compass2:before {
+	content: "\e60b";
+}
+.cb-map:before {
+	content: "\e60c";
+}
+.cb-map2:before {
+	content: "\e60d";
+}
+.cb-history:before {
+	content: "\e60e";
+}
+.cb-clock:before {
+	content: "\e60f";
+}
+.cb-clock2:before {
+	content: "\e610";
+}
+.cb-calendar:before {
+	content: "\e611";
+}
+.cb-mail2:before {
+	content: "\e612";
+}
+.cb-facebook:before {
+	content: "\e613";
+}
+.cb-instagram:before {
+	content: "\e614";
+}
+.cb-twitter:before {
+	content: "\e615";
+}
+.cb-joomla:before {
+	content: "\e616";
+}

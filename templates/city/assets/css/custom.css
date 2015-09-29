@@ -1,0 +1,44 @@
+div.mod-languages ul.lang-inline li a{
+	display: inline-flex;
+	border: none;
+}
+
+
+#header h1 {
+	left: 2.5em;
+	border-left: 1px solid #22272C;
+	padding-left: 0.5em; 
+}
+
+/* icons */
+.icon.cb-roman:before{ color: #E4892A; }
+.icon.cb-byzantine:before{ color: #FF2D16; }
+.icon.cb-ottoman:before{ color: #0153AD; }
+.icon.cb-hebrew:before{ color: #347A2C; }
+.icon.cb-churches:before{ color: #806A43; }
+.icon.cb-newest:before{ color: #3B42A2; }
+
+li.icon.cb-roman:before,
+li.icon.cb-byzantine:before,
+li.icon.cb-ottoman:before,
+li.icon.cb-hebrew:before,
+li.icon.cb-churches:before,
+li.icon.cb-newest:before
+{ color: white; }
+
+
+#main .wrapper.style9 {
+	padding: 0 1em; 
+	background-color: #2e3842;
+}
+
+#top.alt{
+	position: fixed;
+	z-index: 91;
+	background-color: #1D232A;
+	height: 9em;
+}
+
+#main.has-top{
+	padding-top: 9em;
+}
